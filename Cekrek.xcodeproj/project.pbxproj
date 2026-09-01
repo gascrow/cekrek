@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10842061304092A100BE6043 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10842055304092A100BE6043 /* SettingsView.swift */; };
+		10842062304092A100BE6043 /* GestureGuideOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10842053304092A100BE6043 /* GestureGuideOverlay.swift */; };
+		10842063304092A100BE6043 /* CekrekApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10842037304092A100BE6043 /* CekrekApp.swift */; };
+		10842064304092A100BE6043 /* CrashRecoveryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10842045304092A100BE6043 /* CrashRecoveryManager.swift */; };
+		10842065304092A100BE6043 /* VNHandPoseObservation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10842039304092A100BE6043 /* VNHandPoseObservation+Extensions.swift */; };
+		10842066304092A100BE6043 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1084204B304092A100BE6043 /* StorageManager.swift */; };
+		10842067304092A100BE6043 /* CountdownOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10842052304092A100BE6043 /* CountdownOverlay.swift */; };
+		10842068304092A100BE6043 /* GestureClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10842047304092A100BE6043 /* GestureClassifier.swift */; };
+		10842069304092A100BE6043 /* PermissionDeniedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10842054304092A100BE6043 /* PermissionDeniedView.swift */; };
+		1084206A304092A100BE6043 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1084204A304092A100BE6043 /* SettingsStore.swift */; };
+		1084206C304092A100BE6043 /* CameraViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1084204F304092A100BE6043 /* CameraViewModel.swift */; };
+		1084206D304092A100BE6043 /* CaptureMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1084203C304092A100BE6043 /* CaptureMode.swift */; };
+		1084206E304092A100BE6043 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10842051304092A100BE6043 /* CameraView.swift */; };
+		1084206F304092A100BE6043 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1084203B304092A100BE6043 /* AppState.swift */; };
+		10842070304092A100BE6043 /* GestureStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10842048304092A100BE6043 /* GestureStateMachine.swift */; };
+		10842072304092A100BE6043 /* GestureType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1084203D304092A100BE6043 /* GestureType.swift */; };
+		10842073304092A100BE6043 /* HandPoseDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10842049304092A100BE6043 /* HandPoseDetector.swift */; };
+		10842075304092A100BE6043 /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10842046304092A100BE6043 /* ErrorManager.swift */; };
+		10842077304092A100BE6043 /* ActionDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10842042304092A100BE6043 /* ActionDispatcher.swift */; };
+		10842078304092A100BE6043 /* AudioHapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10842043304092A100BE6043 /* AudioHapticManager.swift */; };
+		10842079304092A100BE6043 /* CameraSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10842044304092A100BE6043 /* CameraSessionManager.swift */; };
+		1084207A304092A100BE6043 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1084204D304092A100BE6043 /* Constants.swift */; };
+		1084207B304092A100BE6043 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1084205F304092A100BE6043 /* README.md */; };
+		1084207D304092A100BE6043 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 1084205E304092A100BE6043 /* LICENSE */; };
+		1084208130409BFF00BE6043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1084208030409BFF00BE6043 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10841F8C30408E8700BE6043 /* Cekrek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cekrek.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10842037304092A100BE6043 /* CekrekApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CekrekApp.swift; sourceTree = "<group>"; };
+		10842039304092A100BE6043 /* VNHandPoseObservation+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VNHandPoseObservation+Extensions.swift"; sourceTree = "<group>"; };
+		1084203B304092A100BE6043 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		1084203C304092A100BE6043 /* CaptureMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureMode.swift; sourceTree = "<group>"; };
+		1084203D304092A100BE6043 /* GestureType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureType.swift; sourceTree = "<group>"; };
+		1084203F304092A100BE6043 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10842040304092A100BE6043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10842042304092A100BE6043 /* ActionDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionDispatcher.swift; sourceTree = "<group>"; };
+		10842043304092A100BE6043 /* AudioHapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioHapticManager.swift; sourceTree = "<group>"; };
+		10842044304092A100BE6043 /* CameraSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSessionManager.swift; sourceTree = "<group>"; };
+		10842045304092A100BE6043 /* CrashRecoveryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashRecoveryManager.swift; sourceTree = "<group>"; };
+		10842046304092A100BE6043 /* ErrorManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
+		10842047304092A100BE6043 /* GestureClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureClassifier.swift; sourceTree = "<group>"; };
+		10842048304092A100BE6043 /* GestureStateMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureStateMachine.swift; sourceTree = "<group>"; };
+		10842049304092A100BE6043 /* HandPoseDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandPoseDetector.swift; sourceTree = "<group>"; };
+		1084204A304092A100BE6043 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		1084204B304092A100BE6043 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		1084204D304092A100BE6043 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1084204F304092A100BE6043 /* CameraViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewModel.swift; sourceTree = "<group>"; };
+		10842051304092A100BE6043 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		10842052304092A100BE6043 /* CountdownOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownOverlay.swift; sourceTree = "<group>"; };
+		10842053304092A100BE6043 /* GestureGuideOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureGuideOverlay.swift; sourceTree = "<group>"; };
+		10842054304092A100BE6043 /* PermissionDeniedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionDeniedView.swift; sourceTree = "<group>"; };
+		10842055304092A100BE6043 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1084205E304092A100BE6043 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1084205F304092A100BE6043 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1084208030409BFF00BE6043 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10841F8930408E8700BE6043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10841F8330408E8700BE6043 = {
+			isa = PBXGroup;
+			children = (
+				1084208030409BFF00BE6043 /* Assets.xcassets */,
+				10841F8D30408E8700BE6043 /* Products */,
+				10842057304092A100BE6043 /* cekrek */,
+				1084205E304092A100BE6043 /* LICENSE */,
+				1084205F304092A100BE6043 /* README.md */,
+			);
+			sourceTree = "<group>";
+		};
+		10841F8D30408E8700BE6043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10841F8C30408E8700BE6043 /* Cekrek.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10842038304092A100BE6043 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				10842037304092A100BE6043 /* CekrekApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1084203A304092A100BE6043 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				10842039304092A100BE6043 /* VNHandPoseObservation+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1084203E304092A100BE6043 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1084203B304092A100BE6043 /* AppState.swift */,
+				1084203C304092A100BE6043 /* CaptureMode.swift */,
+				1084203D304092A100BE6043 /* GestureType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		10842041304092A100BE6043 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1084203F304092A100BE6043 /* Assets.xcassets */,
+				10842040304092A100BE6043 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1084204C304092A100BE6043 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				10842042304092A100BE6043 /* ActionDispatcher.swift */,
+				10842043304092A100BE6043 /* AudioHapticManager.swift */,
+				10842044304092A100BE6043 /* CameraSessionManager.swift */,
+				10842045304092A100BE6043 /* CrashRecoveryManager.swift */,
+				10842046304092A100BE6043 /* ErrorManager.swift */,
+				10842047304092A100BE6043 /* GestureClassifier.swift */,
+				10842048304092A100BE6043 /* GestureStateMachine.swift */,
+				10842049304092A100BE6043 /* HandPoseDetector.swift */,
+				1084204A304092A100BE6043 /* SettingsStore.swift */,
+				1084204B304092A100BE6043 /* StorageManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1084204E304092A100BE6043 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				1084204D304092A100BE6043 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		10842050304092A100BE6043 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1084204F304092A100BE6043 /* CameraViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		10842056304092A100BE6043 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				10842051304092A100BE6043 /* CameraView.swift */,
+				10842052304092A100BE6043 /* CountdownOverlay.swift */,
+				10842053304092A100BE6043 /* GestureGuideOverlay.swift */,
+				10842054304092A100BE6043 /* PermissionDeniedView.swift */,
+				10842055304092A100BE6043 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		10842057304092A100BE6043 /* cekrek */ = {
+			isa = PBXGroup;
+			children = (
+				10842038304092A100BE6043 /* App */,
+				1084203A304092A100BE6043 /* Extensions */,
+				1084203E304092A100BE6043 /* Models */,
+				10842041304092A100BE6043 /* Resources */,
+				1084204C304092A100BE6043 /* Services */,
+				1084204E304092A100BE6043 /* Utilities */,
+				10842050304092A100BE6043 /* ViewModels */,
+				10842056304092A100BE6043 /* Views */,
+			);
+			path = cekrek;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10841F8B30408E8700BE6043 /* Cekrek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10841FAD30408E8900BE6043 /* Build configuration list for PBXNativeTarget "Cekrek" */;
+			buildPhases = (
+				10841F8830408E8700BE6043 /* Sources */,
+				10841F8930408E8700BE6043 /* Frameworks */,
+				10841F8A30408E8700BE6043 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cekrek;
+			packageProductDependencies = (
+			);
+			productName = Cekrek;
+			productReference = 10841F8C30408E8700BE6043 /* Cekrek.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10841F8430408E8700BE6043 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					10841F8B30408E8700BE6043 = {
+						CreatedOnToolsVersion = 26.6;
+					};
+				};
+			};
+			buildConfigurationList = 10841F8730408E8700BE6043 /* Build configuration list for PBXProject "Cekrek" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10841F8330408E8700BE6043;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 10841F8D30408E8700BE6043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10841F8B30408E8700BE6043 /* Cekrek */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10841F8A30408E8700BE6043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1084207B304092A100BE6043 /* README.md in Resources */,
+				1084207D304092A100BE6043 /* LICENSE in Resources */,
+				1084208130409BFF00BE6043 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10841F8830408E8700BE6043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10842061304092A100BE6043 /* SettingsView.swift in Sources */,
+				10842062304092A100BE6043 /* GestureGuideOverlay.swift in Sources */,
+				10842063304092A100BE6043 /* CekrekApp.swift in Sources */,
+				10842064304092A100BE6043 /* CrashRecoveryManager.swift in Sources */,
+				10842065304092A100BE6043 /* VNHandPoseObservation+Extensions.swift in Sources */,
+				10842066304092A100BE6043 /* StorageManager.swift in Sources */,
+				10842067304092A100BE6043 /* CountdownOverlay.swift in Sources */,
+				10842068304092A100BE6043 /* GestureClassifier.swift in Sources */,
+				10842069304092A100BE6043 /* PermissionDeniedView.swift in Sources */,
+				1084206A304092A100BE6043 /* SettingsStore.swift in Sources */,
+				1084206C304092A100BE6043 /* CameraViewModel.swift in Sources */,
+				1084206D304092A100BE6043 /* CaptureMode.swift in Sources */,
+				1084206E304092A100BE6043 /* CameraView.swift in Sources */,
+				1084206F304092A100BE6043 /* AppState.swift in Sources */,
+				10842070304092A100BE6043 /* GestureStateMachine.swift in Sources */,
+				10842072304092A100BE6043 /* GestureType.swift in Sources */,
+				10842073304092A100BE6043 /* HandPoseDetector.swift in Sources */,
+				10842075304092A100BE6043 /* ErrorManager.swift in Sources */,
+				10842077304092A100BE6043 /* ActionDispatcher.swift in Sources */,
+				10842078304092A100BE6043 /* AudioHapticManager.swift in Sources */,
+				10842079304092A100BE6043 /* CameraSessionManager.swift in Sources */,
+				1084207A304092A100BE6043 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		10841FAB30408E8900BE6043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10841FAC30408E8900BE6043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		10841FAE30408E8900BE6043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cekrek/Resources/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Cekrek memerlukan akses kamera untuk mengambil foto dan video secara hands-free menggunakan gestur tangan.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Cekrek memerlukan akses mikrofon untuk merekam audio saat perekaman video.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Cekrek memerlukan izin untuk menyimpan foto dan video hasil rekaman ke galeri foto Anda.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Cekrek memerlukan akses photo library untuk menyimpan foto dan video hasil rekaman ke album \"AI Hands-Free\".";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Bagstywn.Cekrek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Debug;
+		};
+		10841FAF30408E8900BE6043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "cekrek/Resources/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Cekrek memerlukan akses kamera untuk mengambil foto dan video secara hands-free menggunakan gestur tangan.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Cekrek memerlukan akses mikrofon untuk merekam audio saat perekaman video.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Cekrek memerlukan izin untuk menyimpan foto dan video hasil rekaman ke galeri foto Anda.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Cekrek memerlukan akses photo library untuk menyimpan foto dan video hasil rekaman ke album \"AI Hands-Free\".";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Bagstywn.Cekrek;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10841F8730408E8700BE6043 /* Build configuration list for PBXProject "Cekrek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10841FAB30408E8900BE6043 /* Debug */,
+				10841FAC30408E8900BE6043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10841FAD30408E8900BE6043 /* Build configuration list for PBXNativeTarget "Cekrek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10841FAE30408E8900BE6043 /* Debug */,
+				10841FAF30408E8900BE6043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10841F8430408E8700BE6043 /* Project object */;
+}
